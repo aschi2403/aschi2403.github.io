@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Having Nginx at home is a dream</title>
+      <link href="/2020/07/01/Having-Nginx-at-home-is-a-dream/"/>
+      <url>/2020/07/01/Having-Nginx-at-home-is-a-dream/</url>
+      
+        <content type="html"><![CDATA[<h1 id="My-Problem"><a href="#My-Problem" class="headerlink" title="My Problem"></a>My Problem</h1><p>For a long time I had an annoying problem. I have setup a <a href="https://nextcloud.org/" target="_blank" rel="noopener">Nextcloud</a> server at home. If you don’t know what <a href="https://nextcloud.org/" target="_blank" rel="noopener">Nextcloud</a> is, take a look at there website, it’s cool thing. But is not in the scope of this blog post. To sum it up, <a href="https://nextcloud.org/" target="_blank" rel="noopener">Nextcloud</a> uses port 443 and 80 because it’s a webapp. So now I can’t setup any kind of webserver at home (without being it on a not well known port), because <a href="https://stevessmarthomeguide.com/understanding-port-forwarding/" target="_blank" rel="noopener">port forwarding</a> can only forward a specific port to one IP-address.</p><h1 id="When-I-discovered-Nginx"><a href="#When-I-discovered-Nginx" class="headerlink" title="When I discovered Nginx"></a>When I discovered Nginx</h1><p><a href="https://www.nginx.com/" target="_blank" rel="noopener">Nginx</a> can be used as a reversed proxy. This means you can have multiple DNS names pointing to one single IP-Address (e.g. the public IP of your router at home) and based on the DNS name the reverse proxy forwards the request to a specific webserver. So when I type server1.jakobstech.tk into the browser the request reaches nginx which forwards it to a local webserver and sends the response of the webserver back to me.</p><h1 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h1><p>With this I finally have a solution to have as many webbased services at home as I want, well as long as my bandwith can deal with it.</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> nginx </tag>
+            
+            <tag> reverse proxy </tag>
+            
+            <tag> server </tag>
+            
+            <tag> linux </tag>
+            
+            <tag> at home </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>How this blog works</title>
       <link href="/2019/12/10/how-this-was-created/"/>
       <url>/2019/12/10/how-this-was-created/</url>

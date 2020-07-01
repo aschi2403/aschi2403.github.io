@@ -10,7 +10,7 @@
 
     <!--Description-->
     
-        <meta name="description" content="So you found my blog?This blog may look a little boring now.Come back later.Trust me there will be amazing stuff coming later.I’m looking forward to s">
+        <meta name="description" content="My ProblemFor a long time I had an annoying problem. I have setup a Nextcloud server at home. If you don’t know what Nextcloud is, take a look at ther">
     
 
     <!--Author-->
@@ -20,7 +20,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="first post">
+        <meta property="og:title" content="Having Nginx at home is a dream">
     
 
     <!--Open Graph Description-->
@@ -42,7 +42,7 @@
 
     <!-- Title -->
     
-    <title>first post - Jakob&#39;s Tech Blog</title>
+    <title>Having Nginx at home is a dream - Jakob&#39;s Tech Blog</title>
 
     <!-- Tachyons Core CSS -->
     <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
@@ -104,8 +104,8 @@
     <!-- Title -->
     <div class="w-100 mw8 center vh-40 dt">
         <div class="dtc v-mid white">
-            <h1 class="f1-l f2-m tc tc-m tl-ns">first post</h1>
-            <p class="f4 fw3 pab-100px tc tc-m tl-ns">2019-09-09</p>
+            <h1 class="f1-l f2-m tc tc-m tl-ns">Having Nginx at home is a dream</h1>
+            <p class="f4 fw3 pab-100px tc tc-m tl-ns">2020-07-01</p>
         </div>
     </div>
 
@@ -123,9 +123,17 @@
                 <div class="fl w-100 w-70-l mw7 left fw3 lh-copy pr4-ns pr0-m post-content">
                     <!-- Tags Vertical -->
                     
+                        <div class="tags-container-vertical">
+                            <div class="tags-sub-container">
+                                <a class="fw3 ph1 dib" href="/tags/nginx/">#nginx</a> <a class="fw3 ph1 dib" href="/tags/reverse-proxy/">#reverse proxy</a> <a class="fw3 ph1 dib" href="/tags/server/">#server</a> <a class="fw3 ph1 dib" href="/tags/linux/">#linux</a> <a class="fw3 ph1 dib" href="/tags/at-home/">#at home</a>
+                            </div>
+                        </div>
+                    
 
                     <!-- Main Post Content -->
-                    <h1 id="So-you-found-my-blog"><a href="#So-you-found-my-blog" class="headerlink" title="So you found my blog?"></a>So you found my blog?</h1><p>This blog may look a little boring now.<br>Come back later.<br>Trust me there will be amazing stuff coming later.<br>I’m looking forward to see you again reading my first real article.</p>
+                    <h1 id="My-Problem"><a href="#My-Problem" class="headerlink" title="My Problem"></a>My Problem</h1><p>For a long time I had an annoying problem. I have setup a <a href="https://nextcloud.org/" target="_blank" rel="noopener">Nextcloud</a> server at home. If you don’t know what <a href="https://nextcloud.org/" target="_blank" rel="noopener">Nextcloud</a> is, take a look at there website, it’s cool thing. But is not in the scope of this blog post. To sum it up, <a href="https://nextcloud.org/" target="_blank" rel="noopener">Nextcloud</a> uses port 443 and 80 because it’s a webapp. So now I can’t setup any kind of webserver at home (without being it on a not well known port), because <a href="https://stevessmarthomeguide.com/understanding-port-forwarding/" target="_blank" rel="noopener">port forwarding</a> can only forward a specific port to one IP-address.</p>
+<h1 id="When-I-discovered-Nginx"><a href="#When-I-discovered-Nginx" class="headerlink" title="When I discovered Nginx"></a>When I discovered Nginx</h1><p><a href="https://www.nginx.com/" target="_blank" rel="noopener">Nginx</a> can be used as a reversed proxy. This means you can have multiple DNS names pointing to one single IP-Address (e.g. the public IP of your router at home) and based on the DNS name the reverse proxy forwards the request to a specific webserver. So when I type server1.jakobstech.tk into the browser the request reaches nginx which forwards it to a local webserver and sends the response of the webserver back to me.</p>
+<h1 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h1><p>With this I finally have a solution to have as many webbased services at home as I want, well as long as my bandwith can deal with it.</p>
 
 
                     <div>
@@ -139,6 +147,10 @@
                     </div>
                     
                     <!-- Tags Bottom -->
+                    
+                        <div class="tags-container-bottom">
+                            <i class="fa fa-tag pr3 text-main-color"></i><a class="fw3 ph1 dib" href="/tags/nginx/">#nginx</a> <a class="fw3 ph1 dib" href="/tags/reverse-proxy/">#reverse proxy</a> <a class="fw3 ph1 dib" href="/tags/server/">#server</a> <a class="fw3 ph1 dib" href="/tags/linux/">#linux</a> <a class="fw3 ph1 dib" href="/tags/at-home/">#at home</a>
+                        </div>
                     
 
                     <!-- Comments -->
