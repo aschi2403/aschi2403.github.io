@@ -39,6 +39,22 @@
       
       
       
+        <tags>
+            
+            <tag> server </tag>
+            
+            <tag> github </tag>
+            
+            <tag> hosting </tag>
+            
+            <tag> cms </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> utterances-bot </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -51,6 +67,12 @@
         <content type="html"><![CDATA[<h1 id="So-you-found-my-blog"><a href="#So-you-found-my-blog" class="headerlink" title="So you found my blog?"></a>So you found my blog?</h1><p>This blog may look a little boring now.<br>Come back later.<br>Trust me there will be amazing stuff coming later.<br>I’m looking forward to see you again reading my first real article.</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> blog </tag>
+            
+        </tags>
       
     </entry>
     
