@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jakob&#39;s Tech Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://jakobstech.tk/"/>
+  <updated>2020-07-01T15:49:34.308Z</updated>
+  <id>https://jakobstech.tk/</id>
+  
+  <author>
+    <name>Jakob Aschauer</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>How this blog works</title>
+    <link href="https://jakobstech.tk/2019/12/10/how-this-was-created/"/>
+    <id>https://jakobstech.tk/2019/12/10/how-this-was-created/</id>
+    <published>2019-12-10T09:42:58.000Z</published>
+    <updated>2020-07-01T15:49:34.308Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="How-this-blog-is-works"><a href="#How-this-blog-is-works" class="headerlink" title="How this blog is works"></a>How this blog is works</h1><p>As my first real blog post I want to show you the technical base of this blog. I am going to show you the technologies I use and why I chose them.</p><h1 id="Github-Pages-for-Hosting"><a href="#Github-Pages-for-Hosting" class="headerlink" title="Github Pages for Hosting"></a>Github Pages for Hosting</h1><p>First I needed to find a webserver to host my blog on. I chose Github Pages, because its easy to configure and maintain. You can easily publish to it using a git repository. Moreover, a little bonus of Github Pages is the fact that it’s free of any charge.</p><h1 id="Hexo-as-a-lightweight-CMS"><a href="#Hexo-as-a-lightweight-CMS" class="headerlink" title="Hexo as a lightweight CMS"></a>Hexo as a lightweight CMS</h1><p>Additionally, I also wanted some kind of Content Management System instead to manage my blog posts easily. Unfortunately the most popular CMS like Wordpress and Joomla don’t run on Github Pages since they need PHP and an SQL Server to work.<br>Since Github Pages only lets you serve static pages I need a tool that does all the dynamic work when publishing the blog.<br>After searching a bit I found Hexo, a JavaScript based CMS that generates static pages which it is able to automatically publish to Github Pages. Personally as a developer I like Hexo for a number of reasons.</p><ul><li><p>I can manage it within a git repository, since my repository for that is also on Github I also have a full backup of my CMS without doing anything.</p></li><li><p>I like writing text in Markdown</p></li><li><p>I don’t need to use a special editor of the CMS. I can use whichever editor I want for writing my blog posts, since Hexo uses ordinary Markdown files.</p></li></ul><p>If you want to know more about Hexo you can visit their website <a href="https://hexo.io" target="_blank" rel="noopener">hexo.io</a>.</p><p>My first experience with Hexo is great, it just works.</p><h1 id="Wait-how-can-there-be-comments-on-a-static-page"><a href="#Wait-how-can-there-be-comments-on-a-static-page" class="headerlink" title="Wait, how can there be comments on a static page?"></a>Wait, how can there be comments on a static page?</h1><p>That where the utterances-bot does its magic.<br>Just kidding, it’s not magic. It’s based on JavaScript and uses Github Issues to save the comments. So every user with a Github Account can comment. Since this is a technology focused blog, most of you will probably have a Github account.<br>Now that you know how easy it is to comment, I would be happy I you’d give it try. Since I don’t have any experience with blogging, I’d be happy reading your constructive feedback.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;How-this-blog-is-works&quot;&gt;&lt;a href=&quot;#How-this-blog-is-works&quot; class=&quot;headerlink&quot; title=&quot;How this blog is works&quot;&gt;&lt;/a&gt;How this blog is wor
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>first post</title>
+    <link href="https://jakobstech.tk/2019/09/09/firstpost/"/>
+    <id>https://jakobstech.tk/2019/09/09/firstpost/</id>
+    <published>2019-09-09T11:23:58.000Z</published>
+    <updated>2020-07-01T15:49:34.308Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="So-you-found-my-blog"><a href="#So-you-found-my-blog" class="headerlink" title="So you found my blog?"></a>So you found my blog?</h1><p>This blog may look a little boring now.<br>Come back later.<br>Trust me there will be amazing stuff coming later.<br>I’m looking forward to see you again reading my first real article.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;So-you-found-my-blog&quot;&gt;&lt;a href=&quot;#So-you-found-my-blog&quot; class=&quot;headerlink&quot; title=&quot;So you found my blog?&quot;&gt;&lt;/a&gt;So you found my blog?&lt;/h1
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
